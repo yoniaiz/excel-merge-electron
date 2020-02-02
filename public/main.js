@@ -16,7 +16,7 @@ function createWindow() {
     height: 680,
     nodeIntegration: true,
     webPreferences: {
-      nodeIntegration: true,
+      nodeIntegration: true
     }
   });
   settingsWindow = new BrowserWindow({
@@ -25,7 +25,7 @@ function createWindow() {
     parent: mainWindow,
     show: false,
     webPreferences: {
-      nodeIntegration: true,
+      nodeIntegration: true
     }
   });
 
@@ -42,7 +42,7 @@ function createWindow() {
 
   mainWindow.on("closed", () => (mainWindow = null));
 
-  settingsWindow.on("close", (e) => {
+  settingsWindow.on("close", e => {
     e.preventDefault();
     settingsWindow.hide();
   });
