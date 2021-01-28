@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.4.1",
     "concurrently": "^5.1.0",
-    "electron": "^7.1.11",
+    "electron": "^9.4.0",
     "electron-builder": "^22.3.2",
     "electron-is-dev": "^1.1.0",
     "file-saver": "^2.0.2",
